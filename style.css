@@ -1,0 +1,91 @@
+body {
+    background-color: #EEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul.a{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    font-size: small;
+}
+
+ul.b {
+    font-size: small;
+    line-height: 1.5;
+}
+
+p.job-title {
+    font-weight: bold;
+}
+
+.section {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#container {
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color: gold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#content {
+    padding: 10px;
+
+}
+
+#nav {
+    width: 140px;
+    float: left;
+    margin-top: 20px;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+
+#nav .selected {
+    font-weight: bold;
+}
+
+#main {
+    width: 640px;
+    float: right;
+}
+
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-top: 5px;
+    margin-right: 4%;
+}
+
+#footer {
+    clear: both;
+    height: 30px;
+    width: 100%;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+}
